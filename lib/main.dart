@@ -63,9 +63,9 @@ class Myhome extends State<MyHome> {
               child: Column(
                 children: [
                   CircleAvatar(
-                child: Text("J"),
                 radius: 50,
-                backgroundColor: Colors.orange,
+                // backgroundColor: Colors.orange,
+                backgroundImage: AssetImage('img/a.jpg'),
               ),
               SizedBox(height: 3),
               Text("JOEL JACKSON", style: TextStyle(color: ft, fontSize: 17,fontWeight: FontWeight.w700),),
