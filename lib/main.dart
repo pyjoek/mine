@@ -32,6 +32,8 @@ class Myhome extends State<MyHome> {
         backgroundColor: bg,
         appBar: AppBar(
           backgroundColor: bg,
+          leading: IconButton(onPressed: () => {print("Back")},
+           icon: Icon(Icons.arrow_back_rounded, color: ft,)),
           actions: [
             Padding(
               padding: const EdgeInsets.all(16.0),
